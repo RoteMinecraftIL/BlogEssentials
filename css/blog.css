@@ -69,6 +69,7 @@ section {
   background-color: #ffffe5;
   margin-left: 170px;
   border-left: 1px solid gray;
+  border-bottom: 1px solid gray;
   padding: 1em;
 }
 
