@@ -1,0 +1,6 @@
+{
+  "name": "Blogessentials",
+  "tagline": "RoteMinecraftIL's blog essentials (CSS + JS)",
+  "body": "# BlogEssentials\r\nRoteMinecraftIL's blog essentials (CSS + JS).\r\n## How to install\r\nInstalling the blog essentials to your website is very easy.\r\n### CSS:\r\nIn the `head` section of the html file, write:\r\n``` html\r\n<link rel=\"stylesheet\" href=\"file soooon\">\r\n```\r\nOr download the `blog.css` file, put it in the website folder and write:\r\n``` html\r\n<link rel=\"stylesheet\" href=\"blog.css\">\r\n```\r\n\r\n### JS\r\nIn the `head`/`body` section of your website, write:\r\n``` html\r\n<script src=\"file soooon\"></script>\r\n```\r\nor download the `blog.js` (Soooon) file, put it in your website folder and write:\r\n``` html\r\n<script src=\"blog.js\"></script>\r\n```\r\n\r\n### Example:\r\n``` html\r\n<!DOCTYPE html>\r\n<html>\r\n  <head>\r\n    <link rel=\"stylesheet\" href=\"file soooon\">\r\n    <script src=\"file soooon\"></script>\r\n    <title>example</title>\r\n  </head>\r\n  <body>\r\n    ...\r\n  </body>\r\n</html>\r\n```\r\n## How to uninstall\r\nJust delete lines you added, and all of the custom html tags.\r\n\r\n## Contribute\r\nYou are free to contribute anything to the project!\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
