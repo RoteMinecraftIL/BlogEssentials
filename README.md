@@ -62,10 +62,11 @@ The `<ar-text>` element is an article text element. it contains all of the parag
 </ar-text>
 ```
 #### Style decleration:
+``` css
 ar-text {
   font-size: 0.9em;
 }
-
+```
 ### `<section>`
 #### Description:
 The `<section>` element is a built-in HTML element, restyled to be an article.
