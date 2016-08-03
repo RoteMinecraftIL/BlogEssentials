@@ -4,6 +4,12 @@
 body {
   font-family: 'Raleway', sans-serif;
   text-align: center;
+  background-color: #e5e5e5;
+}
+
+div.container {
+  width: 100%;
+  height: 100%;
 }
 
 header {
@@ -13,6 +19,7 @@ header {
   width: 100%;
   color: #00f;
   background-color: #ff0;
+  border: 1px solid #00f;
 }
 
 /* a link with no settings. example at examples folder */
@@ -29,19 +36,18 @@ a[none] {
 
 /* navigation bar */
 nav {
-  width: 100%;
-  font-size: 0.75em;
-  height: 100%;
-  background-color: #efefef;
+  float: left;
+  width: 160px;
+  margin: 0;
+  padding: 1em;
+  font-size: 0.9em;
 }
 
-/* the nav bar ul & li settings. example at examples folder */
+/* the nav bar ul settings. example at examples folder */
 #nav ul {
   font-family: 'Verdana', 'Arial', sans-serif;
   list-style-type: none;
-}
-#nav li {
-  display: inline;
+  padding: 0;
 }
 
 /* nav bar links. example at examples folder */
@@ -61,7 +67,10 @@ nav {
 /* (section) article background and settings. example at examples folder */
 section {
   background-color: #ffffe5;
-  width: 15% 85%;
+  margin-left: 170px;
+  border-left: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 1em;
 }
 
 /* article title */
