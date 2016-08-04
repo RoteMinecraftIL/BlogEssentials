@@ -1,1 +1,115 @@
+/* Font Raleway import */
+@import 'https://fonts.googleapis.com/css?family=Raleway:300,400,600';
 
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  color: #FFFEFD;
+  background-color: #020000;
+}
+
+div.container {
+  width: 100%;
+  height: 100%;
+}
+
+div.wrapper {
+	margin-top: 200px;
+}
+
+header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  float: top;
+  font-size: 1.3em;
+  width: 100%;
+  color: #ffffff;
+  background-color: #0a0a0a;
+  border-bottom: 3px solid white;
+}
+
+/* a link with no settings.  */
+a[none] {
+  color: inherit;
+  text-decoration: none;
+  font: inherit;
+}
+
+small {
+	display: block;
+}
+
+/* left align, because the text align is set at center. */
+[left] {
+  text-align: left;
+}
+
+/* navigation bar */
+nav {
+  float: top;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;
+}
+
+/* the nav bar ul settings. */
+#nav ul {
+  font-family: 'Raleway', sans-serif;
+  list-style-type: none;
+  padding: 0;
+}
+
+#nav li[non-last] {
+	border-left: 2px solid white;
+}
+
+#nav li {
+	display: inline;
+	padding-left: 5px;
+}
+
+/* nav bar links.  */
+#nav a {
+  font-weight: 400;
+  text-decoration: none;
+  color: #FFA500;
+}
+
+/* the current page in the navbar. */
+#nav [current] {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+/* (section) article background and settings. */
+section {
+  background-color: #0a0a0a;
+  clear: top;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 1em;
+}
+
+/* article title */
+h2.title {
+  vertical-align: bottom;
+}
+
+/* article description (custom html tag <ar-desc>description</ar-desc>). */
+ar-desc {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 0.65em;
+}
+
+/* article text (custom html tag <ar-text><p>...</p><p>...</p></ar-text>).  */
+ar-text {
+  font-size: 0.9em;
+}
+
+footer {
+  font-size: 0.9em;
+}
