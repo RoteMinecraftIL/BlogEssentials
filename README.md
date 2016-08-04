@@ -1,4 +1,5 @@
 # BlogEssentials
+<<<<<<< HEAD
 RoteMinecraftIL's blog essentials (CSS).
 ## How to install
 Installing the blog essentials to your website is very easy.
@@ -87,3 +88,6 @@ section {
   width: 15% 85%;
 }
 ```
+=======
+For full information, go to the `master` branch.
+>>>>>>> origin/gh-pages
