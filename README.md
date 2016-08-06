@@ -1,12 +1,11 @@
 # BlogEssentials
-<<<<<<< HEAD
 RoteMinecraftIL's blog essentials (CSS).
 ## How to install
 Installing the blog essentials to your website is very easy.
 
 In the `head` section of the html file, write:
 ``` html
-<link rel="stylesheet" href="https://roteminecraftil.github.io/BlogEssentials/css/blog.css">
+<link rel="stylesheet" href="https://rotemdev.github.io/BlogEssentials/css/blog.css">
 ```
 Or download the `blog.css` file, put it in the website folder and write:
 ``` html
@@ -18,7 +17,7 @@ Or download the `blog.css` file, put it in the website folder and write:
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://roteminecraftil.github.io/BlogEssentials/css/blog.css">
+    <link rel="stylesheet" href="https://rotemdev.github.io/BlogEssentials/css/blog.css">
     <title>example</title>
   </head>
   <body>
@@ -88,6 +87,3 @@ section {
   width: 15% 85%;
 }
 ```
-=======
-For full information, go to the `master` branch.
->>>>>>> origin/gh-pages
